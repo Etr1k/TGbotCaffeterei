@@ -1,0 +1,14 @@
+# .NET
+bin/
+obj/
+*.csproj.user
+*.suo
+*.cache
+*.log
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+*.sln

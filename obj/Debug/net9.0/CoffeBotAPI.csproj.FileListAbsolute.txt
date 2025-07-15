@@ -151,3 +151,4 @@
 /Users/optimajs/Downloads/Mk/WebApplication1/CoffeBotAPI/obj/Debug/net9.0/CoffeBotAPI.pdb
 /Users/optimajs/Downloads/Mk/WebApplication1/CoffeBotAPI/obj/Debug/net9.0/CoffeBotAPI.genruntimeconfig.cache
 /Users/optimajs/Downloads/Mk/WebApplication1/CoffeBotAPI/obj/Debug/net9.0/ref/CoffeBotAPI.dll
+/Users/optimajs/Downloads/Mk/WebApplication1/CoffeBotAPI/obj/Debug/net9.0/CoffeBotAPI.sourcelink.json

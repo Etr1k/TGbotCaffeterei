@@ -22,4 +22,4 @@ namespace CoffeBotAPI.Data.APIdata
         }
 
     }
-}
+}   

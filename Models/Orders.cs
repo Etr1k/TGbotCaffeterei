@@ -20,7 +20,7 @@ namespace CoffeBotAPI.Model
         public string Username { get; set; }    
         [Required]
         public string Text { get; set; }
-        public StatusOrder Status { get; set; } = StatusOrder.New;
+        public StatusOrder Status { get; set; } 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
     }

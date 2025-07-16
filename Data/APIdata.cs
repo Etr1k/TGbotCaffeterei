@@ -12,6 +12,7 @@ namespace CoffeBotAPI.Data.APIdata
 
         public DbSet<User> Users { get; set; }
         public DbSet<Orders> Orders { get; set; }
+        public DbSet<OrderSession> OrderSessions { get; set; } 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Orders>()

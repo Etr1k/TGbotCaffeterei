@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CoffeBotAPI.Model
 {
@@ -22,6 +23,11 @@ namespace CoffeBotAPI.Model
         public string Text { get; set; }
         public StatusOrder Status { get; set; } 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public int SessionId { get; set; }                    // 🔗 связь с OrderSession
+        public int LocalNumber { get; set; }                  // 📌 номер заказа в рамках сессии
+
+        [ForeignKey("SessionId")]
+        public OrderSession? session { get; set; }
 
     }
 }

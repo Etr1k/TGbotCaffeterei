@@ -14,7 +14,7 @@ namespace CoffeBotAPI.Model
         
         public int Id { get; set; }
         [Required]
-        public int UserId { get; set; }
+        public string UserId { get; set; }
         public long TelegramId { get; set; }
         [Required]
         public string Username { get; set; }    

@@ -44,8 +44,8 @@ namespace CoffeBotAPI.Data.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int>("UserId")
-                        .HasColumnType("integer");
+                    b.Property<string>("UserId")
+                        .HasColumnType("string");
 
                     b.Property<string>("Username")
                         .IsRequired()

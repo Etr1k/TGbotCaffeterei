@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CoffeBotAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b1ace8f648571ae6c2cbcbd11e9e59541fcfe33")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91d1eee1adf05c7d9c7eebea683d84f8d4676086")]
 [assembly: System.Reflection.AssemblyProductAttribute("CoffeBotAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CoffeBotAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
